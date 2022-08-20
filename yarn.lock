@@ -3406,7 +3406,7 @@
   "resolved" "https://registry.npmmirror.com/check-types/-/check-types-11.1.2.tgz"
   "version" "11.1.2"
 
-"chokidar@^3.4.2", "chokidar@^3.5.3":
+"chokidar@^3.4.2", "chokidar@^3.5.0", "chokidar@^3.5.3":
   "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
   "resolved" "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz"
   "version" "3.5.3"
@@ -4003,6 +4003,13 @@
   "resolved" "https://registry.npmmirror.com/date-fns/-/date-fns-2.29.2.tgz"
   "version" "2.29.2"
 
+"date-time@^3.1.0":
+  "integrity" "sha512-uqCUKXE5q1PNBXjPqvwhwJf9SwMoAHBgWJ6DcrnS5o+W2JOiIILl0JEdVD8SGujrNS02GGxgwAg2PN2zONgtjg=="
+  "resolved" "https://registry.npmmirror.com/date-time/-/date-time-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "time-zone" "^1.0.0"
+
 "debug@^2.6.0":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://registry.npmmirror.com/debug/-/debug-2.6.9.tgz"
@@ -4385,6 +4392,11 @@
     "update-notifier" "^5.1.0"
     "yargs" "^17.0.1"
 
+"electron-is-dev@^1.2.0":
+  "integrity" "sha512-R1oD5gMBPS7PVU8gJwH6CtT0e6VSoD0+SzSnYpNm+dBkcijgA+K7VAMHDfnRq/lkKPZArpzplTW6jfiMYosdzw=="
+  "resolved" "https://registry.npmmirror.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz"
+  "version" "1.2.0"
+
 "electron-osx-sign@^0.6.0":
   "integrity" "sha512-+hiIEb2Xxk6eDKJ2FFlpofCnemCbjbT5jz+BKGpVBrRNT3kWTGs4DfNX6IzGwgi33hUcXF+kFs9JW+r6Wc1LRg=="
   "resolved" "https://registry.npmmirror.com/electron-osx-sign/-/electron-osx-sign-0.6.0.tgz"
@@ -4409,6 +4421,17 @@
     "fs-extra" "^10.0.0"
     "lazy-val" "^1.0.5"
     "mime" "^2.5.2"
+
+"electron-reloader@^1.2.3":
+  "integrity" "sha512-aDnACAzNg0QvQhzw7LYOx/nVS10mEtbuG6M0QQvNQcLnJEwFs6is+EGRCnM+KQlQ4KcTbdwnt07nd7ZjHpY4iw=="
+  "resolved" "https://registry.npmmirror.com/electron-reloader/-/electron-reloader-1.2.3.tgz"
+  "version" "1.2.3"
+  dependencies:
+    "chalk" "^4.1.0"
+    "chokidar" "^3.5.0"
+    "date-time" "^3.1.0"
+    "electron-is-dev" "^1.2.0"
+    "find-up" "^5.0.0"
 
 "electron-to-chromium@^1.4.202":
   "integrity" "sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw=="
@@ -9581,6 +9604,11 @@
   "integrity" "sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA=="
   "resolved" "https://registry.npmmirror.com/thunky/-/thunky-1.1.0.tgz"
   "version" "1.1.0"
+
+"time-zone@^1.0.0":
+  "integrity" "sha512-TIsDdtKo6+XrPtiTm1ssmMngN1sAhyKnTO2kunQWqNPWIVvCm15Wmw4SWInwTVgJ5u/Tr04+8Ei9TNcw4x4ONA=="
+  "resolved" "https://registry.npmmirror.com/time-zone/-/time-zone-1.0.0.tgz"
+  "version" "1.0.0"
 
 "tmp-promise@^3.0.2":
   "integrity" "sha512-RwM7MoPojPxsOBYnyd2hy0bxtIlVrihNs9pj5SUvY8Zz1sQcQG2tG1hSr8PDxfgEB8RNKDhqbIlroIarSNDNsQ=="
